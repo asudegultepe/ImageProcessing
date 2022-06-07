@@ -12,7 +12,7 @@ namespace ImageProcessing
 {
     public partial class Form1 : Form
     {
-        //test
+        
         Bitmap SRC_IMG, DEST_IMG, Temp_IMG;
         public Form1()
         {
@@ -341,5 +341,17 @@ namespace ImageProcessing
 
         }
 
+
     }
 }
+
+/*
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }*/
