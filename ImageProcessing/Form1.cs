@@ -21,7 +21,7 @@ namespace ImageProcessing
 
         private void button18_Click(object sender, EventArgs e)
         {
-            pictureBox1.Load("D:\\2.jpg");
+            pictureBox1.Load("C:\Users\{user}\source\repos\ImageProcessing\ImageProcessing\2.jpg");
             SRC_IMG = new Bitmap(pictureBox1.Image);
             DEST_IMG = new Bitmap(SRC_IMG.Width, SRC_IMG.Height);
             Temp_IMG = new Bitmap(SRC_IMG.Width, SRC_IMG.Height);
@@ -344,14 +344,3 @@ namespace ImageProcessing
 
     }
 }
-
-/*
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }*/
